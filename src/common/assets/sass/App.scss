@@ -36,6 +36,6 @@ $warning-light: $orange-light;
 $warning-dark: $orange-dark;
 
 
-@import "~bulma/sass/utilities/_all.sass";
-@import "~bulma/sass/base/_all.sass";
-@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/utilities/all";
+@import "~bulma/sass/base/all";
+@import "~bulma/sass/elements/button";
