@@ -1,41 +1,17 @@
 @charset "utf-8";
 
-/* app colors */
-$blue: #3A57E8;
-$blue-light: #C4CCF8;
-$blue-dark: #0048B2;
-$blue-very-dark: #001F4D;
-$cyan: #85F4FA;
-$blue-green: #08B1BA;
-$blue-green-dark: #05666C;
-$green: #1AA053;
-$green-light: #D5EBDF;
-$green-dark: #409900;
-$red: #C03221;
-$red-light: #F2D6D3;
-$red-dark: #41110B;
-$orange: #F16A1B;
-$orange-light: #FCE1D1;
-$orange-dark: #B24400;
+/* fontawesome config */
+$fa-font-path: '../webfonts';
 
-/* overwrite bulma colors */
-$primary: $blue;
-$primary-light: $blue-light;
-$primary-dark: $blue-dark;
-$info: $blue-green;
-$info-light: $cyan;
-$info-dark: $blue-green-dark;
-$success: $green;
-$success-light: $green-light;
-$success-dark: $green-dark;
-$danger: $red;
-$danger-light: $red-light;
-$danger-dark: $red-dark;
-$warning: $orange;
-$warning-light: $orange-light;
-$warning-dark: $orange-dark;
+@import "common/assets/fontawesome/fontawesome.scss";
+@import "common/assets/fontawesome/solid.scss";
 
+/* overwrite bulma variables */
+@import "./overwrites/palette";
+@import "./overwrites/button";
 
+/* bulma styles */
 @import "~bulma/sass/utilities/all";
 @import "~bulma/sass/base/all";
-@import "~bulma/sass/elements/button";
+@import "~bulma/sass/elements/all";
+
