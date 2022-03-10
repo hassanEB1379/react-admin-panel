@@ -6,7 +6,7 @@ import exampleAvatar from 'common/assets/images/exampleAvatar.jpeg';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-    title: 'UserBadge',
+    title: 'molecules/UserBadge',
     component: UserBadge,
 } as ComponentMeta<typeof UserBadge>;
 

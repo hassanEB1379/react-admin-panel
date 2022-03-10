@@ -6,7 +6,7 @@ import exampleAvatar from 'common/assets/images/exampleAvatar.jpeg';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-    title: 'Avatar',
+    title: 'atom/Avatar',
     component: Avatar,
 } as ComponentMeta<typeof Avatar>;
 
