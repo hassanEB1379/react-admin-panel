@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import clsx from 'clsx';
+import Icon from './Icon';
 
 type TButton = {
     label?: string;
@@ -50,11 +51,7 @@ const Button: FC<TButton> = ({
 
     return (
         <button {...rest} className={classes}>
-            {icon && (
-                <span className="icon">
-                    <i className={icon} />
-                </span>
-            )}
+            {icon && <Icon name={icon} />}
 
             {label && <span>{label}</span>}
         </button>

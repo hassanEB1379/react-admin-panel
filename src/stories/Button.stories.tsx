@@ -23,11 +23,11 @@ export const WithIcon = Template.bind({});
 
 WithIcon.args = {
     label: 'Button with Icon',
-    icon: 'fas fa-bold',
+    icon: 'fa-bold',
 };
 
 export const IconButton = Template.bind({});
 
 IconButton.args = {
-    icon: 'fas fa-bold',
+    icon: 'fa-bold',
 };
