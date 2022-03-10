@@ -11,7 +11,5 @@ $fa-font-path: '../webfonts';
 @import "./overwrites/button";
 
 /* bulma styles */
-@import "~bulma/sass/utilities/all";
-@import "~bulma/sass/base/all";
-@import "~bulma/sass/elements/all";
+@import "~bulma/bulma";
 
